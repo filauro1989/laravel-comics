@@ -58,14 +58,38 @@ main .top .jumbotron .current-series p {
   text-transform: uppercase;
   color: white;
 }
-main .top .container-80 {
+main .top .container-70 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 2em;
 }
-main .top .container-80 p {
+main .top .container-70 p {
   font-size: 1.3em;
+}
+main .top .container-70 .card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: calc(16.6666666667% - 0.4em);
+}
+main .top .container-70 .card .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+main .top .container-70 .card h2 {
+  font-size: 0.5em;
+  text-transform: uppercase;
+  width: 150px;
+}
+main .top .container-70 .card .product {
+  margin: 0.2em;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+main .top .container-70 .card .product img {
+  width: 100%;
 }
 main .bottom {
   background-color: #0282F9;

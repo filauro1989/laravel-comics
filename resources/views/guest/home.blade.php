@@ -10,6 +10,19 @@
         </div>
         <div class="container-70">
             {{-- <Product v-for="(card, index) in cards" :key="index" :img="card.thumb" :alt="card.series" :titolo="card.series" /> --}}
+            @foreach ($comics as $comics_item)
+                <div class="card">
+                    <div class="wrapper">
+                        <div class="product">
+                            <img
+                                src="{{$comics_item['thumb']}}" 
+                                alt="{{$comics_item['title']}}"
+                            >
+                        </div>
+                        <h2>{{ $comics_item['title'] }}</h2>
+                    </div>
+                </div>
+            @endforeach
         </div>
         <div class="load-wrap">
             <div class="load-more">
