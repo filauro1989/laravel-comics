@@ -1,0 +1,97 @@
+.footer-top {
+    background-image: url('../img/footer-bg.jpg');
+    .container-80 {
+        background-image: url('../img/dc-logo-bg.png');
+        background-repeat: no-repeat;
+        background-size: 35%;
+        background-position-x: 80%;
+        background-position-y: 50%;
+        .footer-col-left {
+            width: 40%;
+            .col {
+                padding: 2em 0;
+                width: calc(100% / 3);
+                h3 {
+                    color: white;
+                    text-transform: uppercase;
+                    padding: 0.5em 0;
+                }
+                ul {
+                    list-style-type: none;
+                    li {
+                        color: #717174;
+                        padding: 0.3em 0;
+                        font-size: 0.8em;
+                    }
+                }
+            }
+        }
+    }
+    .footer-col-left {
+    width: 40%;
+    .col {
+        padding: 2em 0;
+        width: calc(100% / 3);
+        h3 {
+            color: white;
+            text-transform: uppercase;
+            padding: 0.5em 0;
+        }
+        ul {
+            list-style-type: none;
+            li {
+                color: #717174;
+                padding: 0.3em 0;
+                font-size: 0.8em;
+            }
+        }
+    }
+}
+}
+
+.j-center {
+    justify-content: center;
+}
+.al-center {
+    align-items: center;
+}
+.footer-bottom {
+    background-color: #303030;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .d-flex {
+        .footer-bottom-sx {
+            width: 50%;
+            button {
+                text-transform: uppercase;
+                border: 1px solid $fontColor;
+                background-color: #303030;
+                font-weight: bold;
+                color: white;
+                padding: 1em;
+                cursor: pointer;
+            }
+        }
+        .footer-bottom-dx {
+            display: flex;
+            width: 50%;
+            justify-content: flex-end;
+            h2 {
+                text-transform: uppercase;
+                display: flex;
+                align-items: center;
+                color: $fontColor;
+                padding: 0 1em;
+            }
+            ul {
+                display: flex;
+                li {
+                    list-style-type: none;
+                    padding: 0.5em;
+                }
+            }
+        }
+    }
+}

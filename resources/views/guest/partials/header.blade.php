@@ -1,4 +1,4 @@
-<div>
+<header>
     <div class="header-blue">
         <div class="header-blue-bar container-70">
             <div class="visa">DC POWER VISA&reg;</div>
@@ -51,4 +51,4 @@
             
         </div>
     </div>    
-</div>
+</header>

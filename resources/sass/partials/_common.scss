@@ -21,4 +21,73 @@ html {
 }
 .d-flex {
     display: flex;
+    align-items: center;
+}
+.space-around {
+    justify-content: space-around;
+}
+main {
+    color: white;
+    .top {
+        flex-direction: column;
+        align-items: center;
+        background-color: $cardsBg;
+        .jumbotron {
+            height: 400px;
+            width: 100%;
+            background-image: url('../img/jumbotron.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            position: relative;
+            .current-series {
+                position: absolute;
+                bottom: -15px;
+                left: 15%;
+                background-color: $fontColor;
+                padding: 0.5em 1em;
+                p {
+                    text-transform: uppercase;
+                    color: white
+                }
+            }
+        };
+        .container-80 {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 2em;
+                p {       
+                    font-size: 1.3em;
+                };
+        }
+    }
+    .bottom {
+        background-color: $fontColor;
+        justify-content: center;
+        height: 150px;
+        .img-wrap img {
+            height: 3em;
+        };
+        .text-wrap {
+            font-size: 0.8em;
+            padding: 0 1em;
+            text-transform: uppercase;
+        }
+    }
+    .load-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1em;
+        .load-more {
+            margin: 0 auto;
+            padding: 0.5em 2.5em;
+            background-color: $fontColor;
+            p {
+                font-size: 0.8em;
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+    }
 }

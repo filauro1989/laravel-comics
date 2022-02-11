@@ -12,5 +12,7 @@
     @include('guest.partials.header')
 
     @yield('content')
+
+    @include('guest.partials.footer')
 </body>
 </html>
