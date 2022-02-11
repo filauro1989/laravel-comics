@@ -1,0 +1,48 @@
+.header-blue {
+    background-color: $fontColor;
+    &-bar {
+        padding: 0.2em 0;
+        font-size: 0.8em;
+        color: white;
+        .visa {
+            width: 79%;
+            display: inline-block;
+            text-align: right;
+            padding-right: 1em;
+        }
+        .additional {
+            width: 20%;
+            display: inline-block;
+        }
+    }
+}
+
+.header-nav {
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav .logo-container {
+    padding: 0.5em;
+}
+.header-nav-list ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+        li {
+            padding: 0 0.5em;
+                a {
+                    display: block;
+                    color: black;
+                    font-weight: bold;
+                    text-decoration: none;
+                    padding: 2em 0;
+                    border-bottom: 5px solid white;
+                    &:hover,
+                    &:active,
+                    &.active {
+                        color: $fontColor;
+                        border-bottom: 5px solid $fontColor;
+                    }
+            }
+        }
+}
