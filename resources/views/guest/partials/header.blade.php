@@ -1,11 +1,11 @@
 <div>
     <div class="header-blue">
-        <div class="header-blue-bar container-80">
+        <div class="header-blue-bar container-70">
             <div class="visa">DC POWER VISA&reg;</div>
             <div class="additional">ADDITIONAL DC SITES &#9660</div>
         </div>
     </div>
-    <div class="header-nav container-80 text-center d-flex bg-green">
+    <div class="header-nav container-70 text-center d-flex bg-green">
         <div class="logo-container w-20">
             <img src="{{ asset('img/dc-logo.png')}}" alt="">
         </div>
@@ -44,7 +44,10 @@
             </ul>
         </div>
         <div class="header-nav-search w-20">
-            <p>Search <i class="fa-solid fa-magnifying-glass"></i></p>
+            <div class="search-box d-flex">
+                <p>Search</p>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
             
         </div>
     </div>    

@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;
-
-700&display=swap);* {
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,8 +13,8 @@ html {
   width: 20%;
 }
 
-.container-80 {
-  width: 80%;
+.container-70 {
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -31,23 +29,21 @@ html {
 .header-blue {
   background-color: #0282F9;
 }
-
 .header-blue-bar {
   padding: 0.2em 0;
   font-size: 0.8em;
   color: white;
 }
-
 .header-blue-bar .visa {
   width: 79%;
   display: inline-block;
   text-align: right;
   padding-right: 1em;
 }
-
 .header-blue-bar .additional {
   width: 20%;
   display: inline-block;
+  text-align: right;
 }
 
 .header-nav {
@@ -57,6 +53,8 @@ html {
 
 .header-nav .logo-container {
   padding: 0.5em;
+  text-align: left;
+  padding-left: 0.7em;
 }
 
 .header-nav-list ul {
@@ -64,11 +62,9 @@ html {
   display: flex;
   align-items: center;
 }
-
 .header-nav-list ul li {
   padding: 0 0.5em;
 }
-
 .header-nav-list ul li a {
   display: block;
   color: black;
@@ -77,11 +73,30 @@ html {
   padding: 2em 0;
   border-bottom: 5px solid white;
 }
-
-.header-nav-list ul li a:hover,
-.header-nav-list ul li a:active,
-.header-nav-list ul li a.active {
+.header-nav-list ul li a:hover, .header-nav-list ul li a:active, .header-nav-list ul li a.active {
   color: #0282F9;
   border-bottom: 5px solid #0282F9;
 }
 
+.header-nav-search {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  padding-right: 0.7em;
+}
+.header-nav-search .search-box {
+  width: 60%;
+  font-weight: bold;
+  font-size: 0.9em;
+  border-bottom: 2px solid #0282F9;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-nav-search .search-box p {
+  display: inline-block;
+  padding-right: 0.5em;
+  padding-bottom: 0.3em;
+}
+.header-nav-search .search-box i {
+  font-size: 1.4em;
+}
