@@ -19,3 +19,23 @@ Route::get('/', function () {
 
     return view('guest.home', $data);
 })->name('home');
+
+Route::get('products/{id}', function($id){
+    $collection = collect(config('comics'));
+    $product = $collection->where('id', $id);
+
+    if($product->count() === 0){
+        abort(404);
+    }
+
+    $singleProduct = '';
+    foreach ($product as $comicOne) {
+        $singleProduct = $comicOne;
+    }
+
+    return view('guest.partials.product', [
+        'product' => $singleProduct,
+        'nomePagina' => $singleProduct['title'],
+    ]);
+
+})->name('product');

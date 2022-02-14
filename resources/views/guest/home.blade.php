@@ -1,5 +1,9 @@
 @extends('guest.layout.base')
 
+@section('documentTitle')
+    {{$pageName}}
+@endsection
+
 @section('content')
 <main>
     <div class="top d-flex">
@@ -14,10 +18,12 @@
                 <div class="card">
                     <div class="wrapper">
                         <div class="product">
-                            <img
-                                src="{{$comics_item['thumb']}}" 
-                                alt="{{$comics_item['title']}}"
-                            >
+                            <a href="{{ route('product', $comics_item['id']) }}">
+                                <img
+                                    src="{{$comics_item['thumb']}}" 
+                                    alt="{{$comics_item['title']}}"
+                                >
+                            </a>
                         </div>
                         <h2>{{ $comics_item['title'] }}</h2>
                     </div>
