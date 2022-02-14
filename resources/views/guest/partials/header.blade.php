@@ -15,7 +15,7 @@
                     <a href="{{ route('characters') }}" class="{{ 'characters' === Route::currentRouteName() ? 'active' : '' }}">CHARACTERS</a>
                 </li>
                 <li>
-                    <a href="{{ route('comics') }}" class="{{ 'comics' === Route::currentRouteName() ? 'active' : '' }}">COMICS</a>
+                    <a href="{{ route('comics') }}" class="{{ ('comics' === Route::currentRouteName() || 'product' === Route::currentRouteName()) ? 'active' : '' }}">COMICS</a>
                 </li>
                 <li>
                     <a href="{{ route('movies') }}" class="{{ 'movies' === Route::currentRouteName() ? 'active' : '' }}">MOVIES</a>

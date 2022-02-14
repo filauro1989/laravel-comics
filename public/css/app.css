@@ -191,7 +191,7 @@ main .load-wrap .load-more p {
   color: black;
   font-weight: bold;
   text-decoration: none;
-  padding: 2em 0;
+  padding: 3.5em 0;
   border-bottom: 5px solid white;
 }
 .header-nav-list ul li a:hover, .header-nav-list ul li a:active, .header-nav-list ul li a.active {
@@ -225,29 +225,30 @@ main .load-wrap .load-more p {
 .footer-top {
   background-image: url("../img/footer-bg.jpg");
 }
-.footer-top .container-80 {
+.footer-top .container-70 {
   background-image: url("../img/dc-logo-bg.png");
   background-repeat: no-repeat;
-  background-size: 35%;
-  background-position-x: 80%;
+  background-size: 40%;
+  background-position-x: 100%;
   background-position-y: 50%;
 }
-.footer-top .container-80 .footer-col-left {
+.footer-top .container-70 .footer-col-left {
   width: 40%;
+  align-items: start;
 }
-.footer-top .container-80 .footer-col-left .col {
+.footer-top .container-70 .footer-col-left .col {
   padding: 2em 0;
   width: 33.3333333333%;
 }
-.footer-top .container-80 .footer-col-left .col h3 {
+.footer-top .container-70 .footer-col-left .col h3 {
   color: white;
   text-transform: uppercase;
   padding: 0.5em 0;
 }
-.footer-top .container-80 .footer-col-left .col ul {
+.footer-top .container-70 .footer-col-left .col ul {
   list-style-type: none;
 }
-.footer-top .container-80 .footer-col-left .col ul li {
+.footer-top .container-70 .footer-col-left .col ul li {
   color: #717174;
   padding: 0.3em 0;
   font-size: 0.8em;

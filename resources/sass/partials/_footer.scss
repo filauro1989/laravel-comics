@@ -1,13 +1,14 @@
 .footer-top {
     background-image: url('../img/footer-bg.jpg');
-    .container-80 {
+    .container-70 {
         background-image: url('../img/dc-logo-bg.png');
         background-repeat: no-repeat;
-        background-size: 35%;
-        background-position-x: 80%;
+        background-size: 40%;
+        background-position-x: 100%;
         background-position-y: 50%;
         .footer-col-left {
             width: 40%;
+            align-items: start;
             .col {
                 padding: 2em 0;
                 width: calc(100% / 3);
