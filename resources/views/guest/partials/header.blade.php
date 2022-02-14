@@ -12,34 +12,34 @@
         <div class="header-nav-list">
             <ul>
                 <li>
-                    <a href="">CHARACTERS</a>
+                    <a href="{{ route('characters') }}" class="{{ 'characters' === Route::currentRouteName() ? 'active' : '' }}">CHARACTERS</a>
                 </li>
                 <li>
-                    <a href="" class="active">COMICS</a>
+                    <a href="{{ route('comics') }}" class="{{ 'comics' === Route::currentRouteName() ? 'active' : '' }}">COMICS</a>
                 </li>
                 <li>
-                    <a href="">MOVIES</a>
+                    <a href="{{ route('movies') }}" class="{{ 'movies' === Route::currentRouteName() ? 'active' : '' }}">MOVIES</a>
                 </li>
                 <li>
-                    <a href="">TV</a>
+                    <a href="{{ route('tv') }}" class="{{ 'tv' === Route::currentRouteName() ? 'active' : '' }}">TV</a>
                 </li>
                 <li>
-                    <a href="">GAMES</a>
+                    <a href="{{ route('games') }}" class="{{ 'games' === Route::currentRouteName() ? 'active' : '' }}">GAMES</a>
                 </li>
                 <li>
-                    <a href="">COLLECTIBLES</a>
+                    <a href="{{ route('collectibles') }}" class="{{ 'collectibles' === Route::currentRouteName() ? 'active' : '' }}">COLLECTIBLES</a>
                 </li>
                 <li>
-                    <a href="">VIDEOS</a>
+                    <a href="{{ route('videos') }}" class="{{ 'videos' === Route::currentRouteName() ? 'active' : '' }}">VIDEOS</a>
                 </li>
                 <li>
-                    <a href="">FANS</a>
+                    <a href="{{ route('fans') }}" class="{{ 'fans' === Route::currentRouteName() ? 'active' : '' }}">FANS</a>
                 </li>
                 <li>
-                    <a href="">NEWS</a>
+                    <a href="{{ route('news') }}" class="{{ 'news' === Route::currentRouteName() ? 'active' : '' }}">NEWS</a>
                 </li>
                 <li>
-                    <a href="">SHOP</a>
+                    <a href="{{ route('shop') }}" class="{{ 'shop' === Route::currentRouteName() ? 'active' : '' }}">SHOP</a>
                 </li>
             </ul>
         </div>
