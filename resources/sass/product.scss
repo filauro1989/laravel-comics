@@ -24,6 +24,10 @@
         }
     }
 }
+.container-55.d-flex {
+    align-items: start;
+    padding: 2em 0;
+}
 .product-top-container {
     padding: 4em 0;
     align-items: start;
@@ -74,6 +78,62 @@
         }
         img {
             width: 100%;
+        }
+    }
+}
+.product-bottom-container {
+    background-color: #F6F6F6;
+    border-top: 1px solid #E3E3E3;
+    color: #003F80;
+    font-weight: bold;
+    font-size: 0.8em;
+    h2 {
+        padding-bottom: 1em;
+    }
+    .talent-box{
+        padding-right: 2em;
+        .artists {
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                color: #67C7EA;
+            }
+        }
+        .talent-box-artby{
+            padding: 0.7em 0;
+            align-items: start;
+            border-top: 1px solid #E3E3E3;
+        }
+        .talent-box-writtenby {
+            padding: 0.7em 0;
+            align-items: start;
+            border-top: 1px solid #E3E3E3;
+            border-bottom: 1px solid #E3E3E3;
+        }
+    }
+    .specs-box {
+        padding-left: 2em;
+        div {
+            padding: 0.7em 0;
+            align-items: start;
+            border-top: 1px solid #E3E3E3;
+        }
+        .specs-box-series{
+            p:last-child{
+                color: #67C7EA;
+                text-transform: uppercase;
+            }
+        }
+        .specs-box-price{
+            p:last-child{
+                color: black;
+            }
+        }
+        .specs-box-sale {
+            border-bottom: 1px solid #E3E3E3;
+            p:last-child{
+                color: black;
+            }
         }
     }
 }

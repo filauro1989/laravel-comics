@@ -25,6 +25,11 @@
   left: 0;
 }
 
+.container-55.d-flex {
+  align-items: start;
+  padding: 2em 0;
+}
+
 .product-top-container {
   padding: 4em 0;
   align-items: start;
@@ -74,4 +79,55 @@
 }
 .product-top-container .adv-container img {
   width: 100%;
+}
+
+.product-bottom-container {
+  background-color: #F6F6F6;
+  border-top: 1px solid #E3E3E3;
+  color: #003F80;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+.product-bottom-container h2 {
+  padding-bottom: 1em;
+}
+.product-bottom-container .talent-box {
+  padding-right: 2em;
+}
+.product-bottom-container .talent-box .artists a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #67C7EA;
+}
+.product-bottom-container .talent-box .talent-box-artby {
+  padding: 0.7em 0;
+  align-items: start;
+  border-top: 1px solid #E3E3E3;
+}
+.product-bottom-container .talent-box .talent-box-writtenby {
+  padding: 0.7em 0;
+  align-items: start;
+  border-top: 1px solid #E3E3E3;
+  border-bottom: 1px solid #E3E3E3;
+}
+.product-bottom-container .specs-box {
+  padding-left: 2em;
+}
+.product-bottom-container .specs-box div {
+  padding: 0.7em 0;
+  align-items: start;
+  border-top: 1px solid #E3E3E3;
+}
+.product-bottom-container .specs-box .specs-box-series p:last-child {
+  color: #67C7EA;
+  text-transform: uppercase;
+}
+.product-bottom-container .specs-box .specs-box-price p:last-child {
+  color: black;
+}
+.product-bottom-container .specs-box .specs-box-sale {
+  border-bottom: 1px solid #E3E3E3;
+}
+.product-bottom-container .specs-box .specs-box-sale p:last-child {
+  color: black;
 }
